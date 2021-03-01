@@ -2,21 +2,115 @@
     "Nike-Air-Max": {
         "name": "Nike Air Max (Mens)",
         "img": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_564,c_limit/ce13ce3b-704c-4bc7-bad2-9fc214a8079a/air-max-plus-iii-shoe-r9QTqn.jpg",
-        "category": "featured"    
+        "category": "featured",
+        "price": "$88"    
     },
     "Nike-Sports-Wear":{
         "name": "Nike Sports Wear Tech Fleece (Mens)",
         "img" : "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_564,c_limit/c312f66c-55a0-48c5-ac2b-19e5921bec1f/sportswear-tech-fleece-joggers-JRcKK7.jpg",
-        "category": "featured"
+        "category": "featured",
+        "price": "$30" 
     },
     "Nike-Air-Max-270": {
         "name": "Nike Air Max 270 (Womens)",
         "img": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_564,c_limit/ouweg5dax808k3vqipcr/air-max-270-shoe-rDQ1Kt.jpg",
-        "category": "featured"
+        "category": "featured",
+        "price": "$125" 
     },
     "Nike-Air-Max-Viva": {
         "name": "Nike Air Max Viva (Womens)",
         "img": "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_564,c_limit/fc5e4df5-355a-49f2-b797-33591b686b64/air-max-viva-shoe-ZQTSV8.jpg",
-        "category": "featured"
+        "category": "featured",
+        "price": "$120" 
+    },
+    "Nike-Air-Force-1": {
+        "name": "Nike Air Force 1 GORE-TEX",
+        "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/dd22bc08-af63-4f7f-a91e-c0e967ece72f/air-force-1-gore-tex-boot-jrsLlg.jpg",
+        "category": "Mens",
+        "price": "$101"     
+    },
+    "LeBron-18":{
+        "name": "LeBron 18 Low 'Neon Nights'",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ade2c902-afac-4851-bdd8-e4e112b154ee/lebron-18-low-neon-nights-basketball-shoe-W1Q3pM.jpg",
+        "category": "Mens",
+        "price": "$200" 
+    },
+    "Nike-Air-Max-90":{
+        "name": "Nike Air Max 90",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/29855b32-b160-493d-8ff8-472b273e74a8/air-max-90-shoe-V2gWRF.jpg",
+        "category": "Mens",
+        "price": "$65" 
+    },
+    "Nike-Air-Max-97":{
+        "name": "Nike Air Max 97",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/296e2e10-19a4-4481-8641-d9781ff5737b/air-max-97-shoe-Kv6B6j.jpg",
+        "category": "Mens",
+        "price": "$112" 
+    },
+    "Air-Jordan-1":{
+        "name": "Air Jordan 1",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8606e3b3-e858-4fa4-9a9a-6d114abd32c8/air-jordan-1-low-shoe-FNs1LD.jpg",
+        "category": "Mens",
+        "price": "$85" 
+    },
+    "Nike-Air-Max-90-Ax":{
+        "name": "Nike Air Max 90 Ax",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/093067b5-5c3b-4b74-b729-d45efa92baa1/air-max-90-ax-shoe-lq1hZn.jpg",
+        "category": "Womens",
+        "price": "$150" 
+    },
+    "Nike-Air-Force-1-Pixel":{
+        "name": "Nike Air Force 1 Pixel",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/806016ea-7412-46a5-9a57-7ade78903fba/air-force-1-pixel-shoe-JT90CG.jpg",
+        "category": "Womens",
+        "price": "$101" 
+    },
+    "Nike-Tanjun":{
+        "name": "Nike Tanjun",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f5zvyqko8hhwgagp4glz/tanjun-shoe-cFh7p0.jpg",
+        "category": "Womens",
+        "price": "$75" 
+    },
+    "Nike-Air-Max-270-W":{
+        "name": "Nike Air Max 270",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9a58e65e-ac1a-4656-b88f-3c4660461c40/air-max-270-shoe-jjrLMq.jpg",
+        "category": "Womens",
+        "price": "$95" 
+    },
+    "Nike-React-Vision":{
+        "name": "Nike React Vision",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/24433691-b43f-40e1-b1bc-060e81980f40/react-vision-shoe-1cLBjr.jpg",
+        "category": "Womens",
+        "price": "$80" 
+    },
+    "Just-In":{
+        "name": "Just In",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/825308a0-7e67-4f31-8159-202f9aa58a1f/nikecourt-air-zoom-vapor-cage-4-hard-court-tennis-shoe-KrxnbZ.jpg",
+        "category": "Womens",
+        "price": "$55" 
+    },
+    "K1":{
+        "name": "Nike Air Max 2090 SE",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/48d7ba77-3638-4ed9-b106-05b119b6eab1/air-max-2090-se-older-shoe-tfjn3d.jpg",
+        "category": "Kids",
+        "price": "$60" 
+    },
+    "K2":{
+        "name": "Lebron 8",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bc529271-a665-4054-953e-f88f25b1ed1b/lebron-8-older-shoe-LFRVbq.jpg",
+        "category": "Kids",
+        "price": "$45" 
+    },
+    "K3":{
+        "name": "Just In",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d1d22f70-4ad5-49b5-aba2-6cb59c198ef7/kawa-se-slide-pN2Fr8.jpg",
+        "category": "Kids",
+        "price": "$25" 
+    },
+    "K4":{
+        "name": "Nike Air Max ZM950",
+        "img" : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/37beffa9-4778-46ed-9de6-8bf9dd0a591a/air-max-zm950-older-shoe-R6ng4q.jpg",
+        "category": "Kids",
+        "price": "$50" 
     }
 }

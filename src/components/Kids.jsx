@@ -19,19 +19,19 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
-export const Womens = () => {
+export const Kids = () => {
     const classes = useStyles();
     const shoeKey = Object.keys(shoe);
 
     return (
         <div>
              <h2 className={classes.heading}>
-                Womens
+                Kids
             </h2>
             <div className={classes.root}>
                 {
                     shoeKey.map((obj, i) =>
-                    shoe[obj].category === 'Womens'?
+                    shoe[obj].category === 'Kids'?
                     (
                         <Link to={`/${shoe[obj].name}`}>
                         <Paper variant="outlined">

@@ -7,6 +7,7 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import {Link} from 'react-router-dom';
 import nike from "../images/nike.png";
+import '../App.css';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -34,30 +35,21 @@ export default function Navbar() {
             </Link>
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            <Button color="inherit" onClick={() =>
-                    {
-                        <Link to=""/>
-                    }    }>
-                New Releases
-            </Button>
-            <Button color="inherit" onClick={() =>
-                    {
-                        <Link to=""/>
-                    }    }>
+          <Link to="Mens">
+            <Button color="inherit">
                 Mens
             </Button>
-            <Button color="inherit" onClick={() =>
-                    {
-                        <Link to=""/>
-                    }    }>
+            </Link>
+            <Link to="Womens">
+            <Button color="inherit">
                 Womens
             </Button>
-            <Button color="inherit" onClick={() =>
-                    {
-                        <Link to=""/>
-                    }    }>
-                Sale
+            <Link to="Kids">
+            <Button color="inherit">
+                Kids
             </Button>
+            </Link>
+            </Link>
           </Typography>
         </Toolbar>
       </AppBar>

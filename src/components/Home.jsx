@@ -1,8 +1,8 @@
 import React from 'react'
-import '../App.css';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import shoe from '../shoes.json';
+import {Link} from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -33,11 +33,13 @@ export const Home = () => {
                     shoeKey.map((obj, i) =>
                     shoe[obj].category === 'featured'?
                     (
+                        <Link to={`/${shoe[obj].name}`}>
                         <Paper variant="outlined">
                         <img height="280px" width="320" src={shoe[obj].img} alt="shoe"/>
                         <p>{shoe[obj].name}</p>
                         </Paper>
-                    ): 'None'
+                        </Link>
+                    ): ''
                     )
                 }
                 
@@ -50,11 +52,13 @@ export const Home = () => {
                     shoeKey.map((obj, i) =>
                     shoe[obj].category === 'featured'?
                     (
+                        <Link to={`/${shoe[obj].name}`}>
                         <Paper variant="outlined">
                         <img height="280px" width="320" src={shoe[obj].img} alt="shoe"/>
                         <p>{shoe[obj].name}</p>
                         </Paper>
-                    ): 'None'
+                        </Link>
+                    ): ''
                     )
                 }
                 
