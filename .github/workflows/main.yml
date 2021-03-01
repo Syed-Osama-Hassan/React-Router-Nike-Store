@@ -38,5 +38,6 @@ jobs:
             
       - name: Installing Surge
         run: npm install -g surge
+        
       - name: Deploying on Surge
-      run: surge ./build https://react-router-v6-nike.surge.sh/ --token ${{secrets.ReactRouter}}
+        run: surge ./build https://react-router-v6-nike.surge.sh/ --token ${{secrets.ReactRouter}}
