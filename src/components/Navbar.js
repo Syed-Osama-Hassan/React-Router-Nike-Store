@@ -17,6 +17,7 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
+    textAlign: "center",
   },
 }));
 
@@ -33,9 +34,31 @@ export default function Navbar() {
             </Link>
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            News
+            <Button color="inherit" onClick={() =>
+                    {
+                        <Link to=""/>
+                    }    }>
+                New Releases
+            </Button>
+            <Button color="inherit" onClick={() =>
+                    {
+                        <Link to=""/>
+                    }    }>
+                Mens
+            </Button>
+            <Button color="inherit" onClick={() =>
+                    {
+                        <Link to=""/>
+                    }    }>
+                Womens
+            </Button>
+            <Button color="inherit" onClick={() =>
+                    {
+                        <Link to=""/>
+                    }    }>
+                Sale
+            </Button>
           </Typography>
-          <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
     </div>
